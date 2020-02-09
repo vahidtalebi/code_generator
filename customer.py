@@ -1,6 +1,7 @@
 import datetime
-
-class Customer:
+# This class get a number as input, do some proccess and give a number as output
+# that number including the year and month of customer register day and customerID  
+class CustomerCreate:
     def __init__(self, num):
         self.customer_id = num
         self.today = datetime.datetime.today()
@@ -10,7 +11,7 @@ class Customer:
             self.month = str(self.today.month)
 
     # Generate our customer id 
-    def genarator(self):
+    def create_customerID(self):
         self.result = str(self.today.year) + self.month + self.customer_id
         return self.result
 
