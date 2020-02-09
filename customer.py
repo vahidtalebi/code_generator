@@ -13,7 +13,7 @@ class CustomerCreate:
     # Generate our customer id 
     def create_customerID(self):
         self.result = str(self.today.year) + self.month + self.customer_id
-        return self.result
+        return self.resultdd
 
     # This function calculate number of digit of customerID and return the lenght
     def digit_calculator(self, n=5):
