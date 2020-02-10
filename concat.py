@@ -1,5 +1,3 @@
-import datetime
-
 # def digit_calculator(number):
 #     digit = len(str(number))
 #     return digit
@@ -10,10 +8,10 @@ import datetime
 #     i = i+1
 #     print (i)
 
-import datetime
-today = datetime.datetime.today()
-if today.month <= 9:
-    month = '0'+str(today.month)
-else:
-    month = str(today.month)
-print (str(today.year)+month)
+# import datetime
+# today = datetime.datetime.today()
+# if today.month <= 9:
+#     month = '0'+str(today.month)
+# else:
+#     month = str(today.month)
+# print (str(today.year)+month)
